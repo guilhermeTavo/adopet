@@ -1,0 +1,36 @@
+.usuario{
+    background: url(../IAMGENS/Forma\ 1.png) no-repeat, top left;
+    background-size: 55vh;
+}
+
+@media(min-width:200px){
+    #mensagem__bg{
+    background: url(../IAMGENS/Forma\ 1.png) no-repeat, top left;
+    background-size: 40vh;
+    }
+}
+
+@media (min-width:768px){
+    .usuario{
+        background-size: 85vh;
+    }
+    #mensagem__bg{
+        background-image:  url(../IAMGENS/Forma\ 1.png), url(../IAMGENS/Forma\ 2.png);
+        background-size: 85vh, 12vh;
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left, right ;
+    }
+
+    #perfil__bg{
+        background-image:  url(../IAMGENS/Forma\ 1.png), url(../IAMGENS/Forma\ 2.png);
+        background-size: 85vh, 20vh;
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left, right ;
+    }
+}
+
+@media(min-width:1440px){
+    #perfil__bg{
+    background-size: 85vh, 15vh;
+    }
+}

@@ -1,0 +1,149 @@
+.titulo__mensagem{
+    display: flex;
+    color: #3772FF;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    margin-top: 10rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.caixas__mensagens{
+    border-radius: 6px;
+    border: 1px;
+    height: 40px;
+    width: 312px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.titulo__caixa___mensagens{
+    color: #3772FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+    justify-content: flex-start;
+}
+
+#mensagem__grande{
+    padding-bottom: 8rem;
+}
+
+.cadastro__botao___mensagem{
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color:#FC7071;
+    color: #ffffff;
+    border: 1px solid #FC7071;
+    margin-top: .5rem;
+}
+
+#perfil{
+    font-family: 'Poppins', sans-serif;
+    color: #737380;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    margin-top: 2rem;
+}
+
+.profile{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+#texto__perfil{
+    font-family: 'Poppins', sans-serif;
+    color: #3772FF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+#foto__perfil{
+
+    width: 50%;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+
+}
+#edit__perfil{
+    font-family: 'Poppins', sans-serif;
+    color: #FC7071;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.msg2__perfil{
+    margin-top: 2rem;
+}
+
+@media(min-width:100px){
+    #msg2{
+        display: none;
+    }
+    .msg1__perfil{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    #msg1{
+        display: none;
+    }
+
+    #msg2{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    .ms1__perfil{
+        display: none;
+    }
+
+    .msg2__perfil{
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .titulo__mensagem{
+        margin-top: 10rem;
+    }
+    .mensagens{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .caixas__mensagens{
+        width: 400px;
+    }
+}
+
+@media(min-width:1440px){
+    .caixas__mensagens{
+        width: 800px;
+    }
+}

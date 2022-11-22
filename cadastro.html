@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+    <link href="css/cabecalho.css" rel="stylesheet">
+    <link href="cadastrocss/cadastro.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="./cadastrocss/corpo.css" rel="stylesheet">
+
+    <title>Cadastro da Adopet</title>
+</head>
+<body class="app__cadastro"> 
+    <header class="cabecato__cadastro">
+        <img src="IAMGENS/Logo.png" class="cabeca" id="logo__cabeca___cadastro">
+        <a href="index.html"><img src="IAMGENS/Casa.png" class="cabeca" alt="MENU DE NAVEGAÇÃO : HOME"></a>
+        <a href="mensagem.html"><img src="IAMGENS/Mensagens.png" class="cabeca"  alt="MENU DE NAVEGAÇÃO: Mensagens"></a>
+     </header>
+<main class="main__cadastro">
+     <section class="title__cadastro">
+        <img src="IAMGENS/Logo_-_azul.png" class="logo__azul">
+        <p class="texto">Ainda não tem cadastro?</p>
+        <p1 class="texto__sec">Então, antes de buscar seu melhor<br> amigo, precisamos de alguns dados:</br></p1>
+     </section>
+        <section class="corpo">
+         <form onsubmit="signup()" class="formulario">
+             <label for="email" class="titulo__caixa" >Email</label >
+             <input type="email" name="Occupation" id="email" placeholder="Escolha seu melhor email" class="caixas" required><br>
+             
+             <label for="nome" class="titulo__caixa">Nome</label >
+             <input type="text" name="username" id="username" placeholder="Seu nome completo"class="caixas" required><br>
+             <label for="senha"class="titulo__caixa" >Senha</label>
+             <input type="password" name="password" id="password"  placeholder="Escolha uma senha!"class="caixas__senha" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$" title="A senha deve ter pelo menos 4 caracteres, não mais que 8 caracteres e deve incluir pelo menos uma letra maiúscula, uma letra minúscula e um dígito numérico."><br>
+             <label for="confirmeSenha" class="titulo__caixa">Confirme sua senha</label>
+             <input type="password" name="Occupation" id="senha" placeholder="Confirme sua senha"class="caixas__senha"  required><br>
+             <input type ="submit" class="cadastro__botao" name="Occupation" value="Cadastrar" id="cadastro"><br>
+         </form>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+<footer class="rodape"><p class = "rodape__text">2022 - DESENVOLVIDO POR GUILHERME</p></footer>
+</html>

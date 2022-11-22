@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cadastrocss/cadastro.css" rel="stylesheet">
+    <link href="cadastrocss/corpo.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="./cadastrocss/corpo.css" rel="stylesheet">
+    <link href="css/cabecalho.css" rel="stylesheet">
+
+    <title>Esqueci a minha senha do AdoPet</title>
+</head>
+<body class="app__cadastro">
+    
+        <header class="cabecato__cadastro">
+            <img src="IAMGENS/Logo.png" class="cabeca" id="logo__cabeca___cadastro">
+            <a href="index.html"><img src="IAMGENS/Casa.png" class="cabeca"  alt="MENU DE NAVEGAÇÃO : HOME"></a>
+            <a href="mensagem.html"><img src="IAMGENS/Mensagens.png" class="cabeca" alt="MENU DE NAVEGAÇÃO: Mensagens"></a>
+         </header>
+         <section class="title__cadastro">
+            <img src="IAMGENS/Logo_-_azul.png" class="logo__azul">
+            <p class="texto">Já tem conta? Faça seu login:</p>
+         </section>
+
+         <section class="corpo" id="esqueci__corpo">
+            <form onsubmit="loginFunc()" class="formulario" id="formulario__esqueci">
+                <label for="email" class="titulo__caixa" >Email</label >
+                <input type="email" name="email"id="email" placeholder="Insira seu email" class="caixas"><br>
+
+                <label for="senha"class="titulo__caixa" >Senha</label>
+                <input type="password" name="Occupation" id="password"  placeholder="Insira sua senha"class="caixas__senha"><br>
+                
+                <p class="psw__esqueci">Esqueci minha senha.</p>
+                <a href="perfil.html"><input type ="submit" class="cadastro__botao" name="Occupation" value="Entrar" id="Entrar"></a><br>
+
+                <p class="titulo__caixa" id="result">Seja bem vindo!</p>
+            </form>
+           </section>
+           <script src="main.js"></script>
+</body>
+<footer class="rodape"><p class = "rodape__text">2022 - DESENVOLVIDO POR GUILHERME</p></footer>
+</html>

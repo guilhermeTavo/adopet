@@ -1,0 +1,100 @@
+
+.titulo1{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #3772FF;
+    margin-top: 10rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    line-height: 20px;
+}
+
+.conteiner{
+    display: flex;
+    background-color: #f6f6f6;
+    margin-top: 13px;  
+}
+
+.conteiner__catalogo{
+    width: 40%;
+    margin: 1rem;
+}
+.title__catalogo{
+    font-family: 'Poppins', sans-serif;
+    color: #3772FF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 0.5rem;
+}
+
+.descricao__catalogo{
+    font-family: 'Poppins', sans-serif;
+    color: #737380;
+    margin-top: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.cidade__catalogo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;  
+    color: #737380;
+    margin-top: 30px;
+}
+
+
+.falar__catalogo{
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.baixo__catalogo{
+    font-family: 'Poppins', sans-serif;
+    color: #737380;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding-left: 0.4rem;
+}
+
+@media (min-width:768px){
+    .titulo1{
+        margin-top: 15rem;
+        font-size: 20px;
+    }
+
+    .conteiner{
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .catalogo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media (min-width:1440px){
+    .conteiner{
+        width: 24%;
+    }
+    
+    .catalogo{
+        background: url(../IAMGENS/Forma\ 2.png) no-repeat;
+        background-position: right;
+        background-size: 7%;
+    }
+}

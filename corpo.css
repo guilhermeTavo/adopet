@@ -1,0 +1,111 @@
+.corpo{
+    background: url(../IAMGENS/invertido.png) no-repeat, left
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    
+
+}
+
+.titulo__caixa{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin: .6rem;
+    
+}
+
+.caixas{
+    border-radius: 8px;
+    color: black;
+    border: 1px;
+    height: 40px;
+    width: 312px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.caixas__senha{
+    border-radius: 8px;
+    border: 1px ;
+    height: 40px;
+    width: 312px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../IAMGENS/olho.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cadastro__botao{
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color:#FC7071;
+    color: #ffffff;
+    border: 1px solid #FC7071;
+    margin: 1rem;
+}
+
+.psw__esqueci{
+    color: #FC7071;
+    text-decoration: underline red;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+#formulario__esqueci{
+    padding-bottom: 15rem;
+}
+
+@media(min-width: 768px){
+    .caixas, .caixas__senha{
+        width: 344px;
+    }
+
+    .cadastro__botao{
+        width: 164px;
+    }
+
+    .corpo{
+        background: url(../IAMGENS/Forma\ 2.png) no-repeat;
+        background-position: 100%, 50%;
+        background-size: 10vh;
+    }
+
+    .psw__esqueci{
+        display: none;
+    }
+    #esqueci__corpo{
+        margin-bottom: 5rem;
+    }
+}
+
+@media(min-width:1440px){
+    .caixas, .caixas__senha{
+        width: 552px;
+    }
+
+    .cadastro__botao{
+        width: 174px;
+    }
+    
+    .corpo{
+        background-position: 100%, 10%;
+        background-size: 10.5vh;
+    }
+
+    #esqueci__corpo{
+        margin-bottom: 5rem;
+    }
+
+}
+
